@@ -17,9 +17,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-urlpatterns = [
+from companies_dashboard import views
+
+urlpatterns = {
     path('admin/', admin.site.urls),
     path('accounts/', include('accounts.urls')),
     path('', include('investmentapp.urls')),
     path('user/', include('dashboard.urls')),
-]
+
+
+
+    # path('company/<int:company_id>/', views.company_detail, name='company_detail'),
+}

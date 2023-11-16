@@ -12,3 +12,8 @@ def home(request):
 def about(request):
     # Your logic here, if needed
     return render(request, 'investmentapp/about.html')
+
+
+def base(request):
+    # Your logic here, if needed
+    return render(request, 'investmentapp/base.html')

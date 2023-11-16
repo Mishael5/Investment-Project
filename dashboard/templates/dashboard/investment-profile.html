@@ -1,0 +1,56 @@
+{% extends 'dashboard/base.html' %}
+
+{% block content %}
+  <div class="container mt-4">
+        <h1>investment Profile </h1>
+        <p>Welcome, {{ user.username }}!</p>
+<table class="table table-striped">
+ <tr>
+  <th> <class ="card-tittle">Agro-vest</class> </th>
+  <th> Construction</th>
+  <th> L_P_G</th>
+  <th> Cosmetology</th>
+  <th> <class ="card-tittle">Medi-vest</class> </th>
+  <th> Real Estate</th>
+  <th> Sports</th>
+  <th> Eduvest</th>
+  <th> <class ="card-tittle">Cleaning</class> </th>
+  <th> E_trading</th>
+  <th> General consultancy</th>
+  <th> Event management</th>
+ </tr>
+
+
+ <tr>
+  <td> 5000.00</td>
+   <td>750,000</td>
+  <td>1,5000,000</td>
+  <td> 250,000</td>
+
+  <td> 5000.00</td>
+  <td>750,000</td>
+  <td>1,5000,000</td>
+  <td> 250,000</td>
+
+  <td> 5000.00</td>
+  <td>750,000</td>
+  <td>1,5000,000</td>
+  <td> 250,000</td>
+ </tr>
+
+ <table class="table table-striped">
+ <tr>
+  <th> <class="card-tittle">Investment </class> </th><th> <class="card-tittle"> Duration</class> </th><th> <class="card-tittle"> Return on investment</class> </th>
+
+  </tr>
+ <td>   </td><td> <p>30 working days</p>
+ <p>45 working days</p>
+ <p>60 working days</p>
+ <p>90 working days</p></td> <td><p>10%</p>
+ <p> 15%</p>
+ <p> 20%</p>
+ <p> 40%</p></td><td>   </td>
+ </tr>
+
+</table>
+ {% endblock %}

@@ -2,32 +2,77 @@
 
 {% block content %}
     <!-- Main Content for About Page -->
-    <div class="container mt-4">
-        <h1>About Our Investment App</h1>
+<div class="container mt-4" xmlns="http://www.w3.org/1999/html">
+        <h1>About Our Investments </h1>
         <p>
-            This comprehensive insightful overview of our nine distinct sectors—agriculture, construction, technology, education, L.P.G supplies, cleaning, medical supplies, cosmetology, and general consultancy. Each sector, while unique, contributes to the intricate tapestry of our modern society, collectively addressing essential needs, challenges, and advancements. The abstract delves into the ever-evolving world of agriculture, showcasing the significance of agro-technological innovations in ensuring food security while minimizing environmental impact. In the construction sector, the abstract explores the transformative impact of innovation and sustainability on infrastructure development, reshaping urban landscapes and enhancing efficiency.
-        </p>
+
         <p>
+    <h3> E_trading </h3>
             Advancements in technology are a common thread across various sectors, as seen in e-
 marketing, e-trading, installation, and beyond. This abstract examines how technology is
 revolutionizing practices, from marketing strategies to trading processes and installation
 techniques, fostering convenience, connectivity, and efficiency.
-            <brk> <brk>
 
+    <div> <a href="{% url 'login' %}">
+
+        <button class="btn btn-primary">invest now</button></a>
+
+</div>
+<div>
+            <br> <br>
+
+                <h3> Eduvest </h3>
             <P> Education, a fundamental pillar of societal progress, is explored in terms of phonics instruction
 and innovative teacher recruitment. These aspects address learning needs and equip educators
 with the tools to shape future generations effectively. </p>
         <br>
+    <h3>L.P.G</h3>
          <p>L.P.G supplies are spotlighted as crucial sources of household energy. The abstract examines the
 sustainable and reliable distribution of cooking gas, ensuring access, affordability, and
 environmental consciousness. </p>
 
         <br>
+    <h3>Cleaning</h3>
         <p>Hygiene and cleanliness, paramount in various environments, find resonance in the cleaning
 sector. Innovations in cleaning practices across households, offices, schools, and hotels are
 discussed, with a focus on safety, efficiency, and environmental responsibility. <p>
 
         </p>
+
+ <h3> Medivest</h3>
+        <p>The abstract also addresses the challenges associated with medical supplies, including apparatus
+and drugs. It discusses supply chain complexities, including issues of procurement, storage,
+distribution, and inventory management. Additionally, it highlights the importance of maintaining an
+uninterrupted supply of critical medications, particularly during emergencies and pandemics.</p>
+
+                <h3> Cosmetology </h3>
+        <p> This abstract on cosmetology provides a comprehensive overview of the dynamic field of cosmetology, delving into
+its multidimensional aspects encompassing beauty, aesthetics, and wellness. Cosmetology, as a
+discipline, encompasses a diverse range of practices and techniques that contribute to enhancing
+personal appearance, self-esteem, and overall well-being.
+The abstract examines the evolution of cosmetology from traditional beauty rituals to modern,
+science-backed practices. It explores the integration of innovative technologies and evidence-based
+methodologies that have transformed the industry, leading to safer and more effective treatments.</p>
+<br>
+
+<h3> General consultancy </h3>
+<p> The abstract highlights the versatility of general consultancy, encompassing a wide spectrum of
+sectors such as business, technology, healthcare, and more. It explores how consultants bring
+their specialized knowledge and external perspective to collaboratively identify opportunities,
+streamline processes, and achieve desired outcomes.
+By leveraging data-driven analysis, industry expertise, and innovative thinking, general
+consultants assist clients in making informed decisions, optimizing strategies, and navigating
+change. The abstract underlines how the consultancy process fosters growth, efficiency, and
+adaptability in the face of evolving challenges. </p>
+
+<div> <a class="nav-link" href="{% url 'register' %}"> <button class="btn btn-primary">invest now</button></a>
+    <li class="nav-item">
+                            <a class="nav-link" href="{% url 'register' %}">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'login' %}">Login</a>
+                        </li>
+
     </div>
 
  {% endblock %}
